@@ -57,7 +57,7 @@ public class Test {
 			case 4: List<Employee> emps=empDAO.getAllEmployees();
 					for(Employee em:emps)
 					{
-						System.out.println("   ID : "+em.getEmpId()+"   Name : "+em.getName()+"   Salary : "+em.getSalary());
+						System.out.println("  ID : "+em.getEmpId()+"   Name : "+em.getName()+"   Salary : "+em.getSalary());
 					}
 					
 					break;
